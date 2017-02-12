@@ -1,0 +1,28 @@
+{
+    "name": "samsonasik/we-bee",
+    "authors": [
+        {
+            "name": "Abdul Malik Ikhsan",
+            "email": "samsonasik@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "kahlan/kahlan": "^3.1",
+        "kahlan/extra-matcher": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "WeBee\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WeBee\\Spec\\": "spec/"
+        }
+    },
+    "config": {
+        "vendor-dir": "vendor",
+        "bin-dir": "bin"
+    }
+}
